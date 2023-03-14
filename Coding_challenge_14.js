@@ -18,7 +18,7 @@
 // 8 and change the program so that it works for any size, outputting a grid of
 // the given width and height.
 
-let size = 10
+let size = 8
 let board = ""
 for (let row = 1; row <= size; row++){
     for (let column = 1; column <= size; column++){
