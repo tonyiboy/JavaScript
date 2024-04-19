@@ -1,0 +1,40 @@
+body {
+    background-color: #0F1C2E;
+}
+
+div {
+    width: 120px;
+    height: 120px;
+    background-color: brown;
+    position:absolute;
+    color: antiquewhite;
+    text-align: center;
+}
+
+p {
+    width: 50ch;
+    text-align: center;
+    border: 1px solid orangered;
+    background-color: black;
+    color: #FFFFFF;
+    background-image: linear-gradient(#4d648d , #1F3A5F);
+    border-radius: 10px;
+}
+
+.click-button {
+    margin-top: 150px;
+}
+
+button {
+    padding: 20px 10px;
+    border: 3px solid gainsboro;
+    background-color: aqua;
+    color: blue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: white;
+    background-color: blueviolet;
+}
