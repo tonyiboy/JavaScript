@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    position:absolute;
+    color: antiquewhite;
+}
+
+button {
+    margin-top: 150px;
+    border: 2px solid black;
+}
