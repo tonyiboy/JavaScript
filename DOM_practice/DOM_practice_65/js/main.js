@@ -1,0 +1,42 @@
+let buttonCreateBox = document.querySelector(".create-box")
+let buttonDeleteBox = document.querySelector(".delete-box")
+let buttonSizeBox = document.querySelector(".size-box")
+let buttonDefaultBox = document.querySelector(".default-box")
+
+let section = document.querySelector("section")
+
+
+function creatingBox(){
+    let createBox = document.createElement("div")
+    createBox.innerText = "box"
+    section.append(createBox)
+}
+
+function deleteBox(){
+    if(section.lastElementChild){
+    section.lastElementChild.remove()
+    }
+}
+
+let incrementSize = 150
+
+function sizeBox(){
+    for(let i = 0; i < section.children.length; i++){ 
+    section.children[i].style.width = `${incrementSize}px`
+    section.children[i].style.height = `${incrementSize}px`
+    }
+
+    incrementSize += 30
+}
+
+function defaultSize(){
+    for(let i = 0; i < section.children.length; i++){ 
+        section.children[i].style.width = "120px"
+        section.children[i].style.height = "120px"
+        }
+}
+
+buttonCreateBox.addEventListener("click", creatingBox)
+buttonDeleteBox.addEventListener("click", deleteBox)
+buttonSizeBox.addEventListener("click", sizeBox)
+buttonDefaultBox.addEventListener("click", defaultSize)
