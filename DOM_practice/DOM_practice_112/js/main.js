@@ -1,0 +1,30 @@
+let section = document.querySelector("section")
+
+section.innerHTML= "<p>this is created by JS inner html</p>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
