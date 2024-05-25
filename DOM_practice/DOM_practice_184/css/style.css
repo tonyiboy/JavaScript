@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #e0e0e0;
+    background-color: #3D5A80;
+    cursor: pointer;
+}
+
+section {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: aqua;
+    width: 320px;
+}
+
+
+
