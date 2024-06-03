@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #1F3A5F;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+header {
+    background-color: #acc2ef;
+    padding: 2rem;
+    border-radius: 1px;
+
+}
+
+section {
+    background-color: #374357;
+    padding: 2rem;
+    color: #e0e0e0;
+}
+
+button {
+    padding: 10px 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 1em;
+}
