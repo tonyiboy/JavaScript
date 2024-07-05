@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #454545;
+    flex-direction: column;
+    gap: 100px;
+}
+
+p {
+    border: 2px dotted black;
+    background-color: aqua;
+    padding: 10px 10px;
+}
+
+button {
+    padding: 10px 5px;
+    text-transform: uppercase;
+    background-color: #8FBC8F;
+    color: #FFFFFF;
+    border: 2px solid black;
+}
+
+button:hover {
+    transform: scale(1.5);
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in;
+}
+
+
+
+
+
+
+
+
