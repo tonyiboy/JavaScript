@@ -1,0 +1,26 @@
+body{
+    background-color: darkgray;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    padding: 10px;
+    color: beige;
+    background-color: blueviolet;
+}
+
+p{
+    text-transform: uppercase;
+    font-size: 1 rem;
+}
+
+.first {
+    color: darkblue;
+}
+
+.second {
+    color: yellow;
+}
