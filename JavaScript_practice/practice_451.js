@@ -16,7 +16,7 @@
 // spaces with no commas. The values of the string should be in descending order. For example, 
 // an input of "50p" should yield the exact string "20p 20p 10p".
 
-function changeMe(moneyIn){
+function changeMe(moneyIn){ 
    let exchange = 0
    
    if (moneyIn === "£5") {
